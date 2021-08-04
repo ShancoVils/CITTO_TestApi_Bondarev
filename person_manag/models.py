@@ -28,6 +28,8 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     Official = models.CharField(max_length=1, choices = OFFICIAL_LIST)
     is_staff = models.BooleanField(default=False)
     is_active = models.BooleanField(default=False)
+    data_created = models.DateTimeField(default=timezone.now)
+    data_update = models.DateTimeField( auto_now=True)
     date_joined = models.DateTimeField(default=timezone.now)
     token_data = models.CharField(max_length=255,blank=True)
     activate_code = models.CharField(max_length=255,blank=True)
@@ -39,3 +41,4 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
 
     def __str__(self):
         return self.email
+

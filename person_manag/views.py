@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.http import HttpResponse
 from rest_framework.response import Response
-from .service import logg_try,register,generate_code,code_form,obtain_auth_token,write_to_db,GenerateExcelUser,get_person_data,post_person_data,put_person_data
+from .service import logg_try,register,generate_code,code_form,obtain_auth_token,write_to_db,GenerateExcelUser,get_person_data,post_person_data,put_person_data,delete_person_data
 '''
 Класс реализует основной функционал API и стандартные методы GET,PUT, POST, DELETE
 '''
@@ -22,7 +22,7 @@ class PersonView(APIView):
     def post(self, request):
         post_user = post_person_data(self, request)
         return Response({
-        "success": "'{}', активируйте аккаунт на указанной вами почте ".format(post_user)
+        "success": "Пожалуйста, активируйте аккаунт на указанной вами почте ".format(post_user)
         })
 
     #Метод редактирует данные, указанного пользователя,
@@ -32,15 +32,15 @@ class PersonView(APIView):
     def put(self, request, pk,):
         put_user = put_person_data(self, request,pk)
         return Response({
-            "success": "Группа" '{}'" обновился ".format(put_user)
+            "success": "Челик обновился "
         })
             
     #Метод удаляет указанного пользователя
         
     def delete(self, request, pk):
-        delete_user = put_person_data(self, request,pk)
+        delete_user = delete_person_data(self, request,pk)
         return Response({
-            "message": "Челик `{}` удален".format(delete_user)
+            "message": "Челик  удален"
         })
 
 

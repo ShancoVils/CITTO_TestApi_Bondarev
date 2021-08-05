@@ -217,7 +217,7 @@ def put_person_data(self, request, pk,):
 
 
 def delete_person_data(self, request, pk):
-        person_obj = get_object_or_404(CustomUser.objects.all(), pk=pk)
-        person_obj.delete()
-        logg_try()
-        logger.debug("Профиль пользователя '{}' удален".format(person_obj.email))
+    person_obj = get_object_or_404(CustomUser.objects.all(), pk=pk)
+    person_obj.delete()
+    logg_try()
+    logger.debug("Профиль пользователя '{}' удален".format(person_obj.email))

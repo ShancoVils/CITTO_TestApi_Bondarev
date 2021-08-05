@@ -60,3 +60,50 @@
 2021-08-04 15:32:30,238 - person_logger - DEBUG - Пользователю  на 'ggytctdw@mail.ru' был выдан токен  
 2021-08-04 15:32:30,241 - person_logger - DEBUG - Пользователю  на 'ggytctdw@mail.ru' был выдан токен  
 2021-08-04 15:32:30,433 - person_logger - DEBUG - Пользователю  на 'bkwqornw@mail.ru' был выдан токен  
+2021-08-04 15:32:30,437 - person_logger - DEBUG - Пользователю  на 'bkwqornw@mail.ru' был выдан токен  
+2021-08-04 15:32:30,661 - person_logger - DEBUG - Пользователю  на 'qtuhtyrp@mail.ru' был выдан токен  
+2021-08-04 15:32:30,665 - person_logger - DEBUG - Пользователю  на 'qtuhtyrp@mail.ru' был выдан токен  
+2021-08-04 15:55:31,155 - person_logger - DEBUG - Получение данных
+2021-08-04 15:56:32,920 - person_logger - DEBUG - Пользователю  на 'pernens@mail.ru' был выдан токен  
+2021-08-04 15:56:32,921 - person_logger - DEBUG - Профиль пользователя 'pernens@mail.ru' обновлен
+2021-08-04 17:20:27,651 - person_logger - DEBUG - Получение данных
+2021-08-04 17:29:56,902 - person_logger - DEBUG - Получение данных
+2021-08-04 17:30:26,054 - person_logger - DEBUG - Получение данных
+2021-08-04 17:34:21,519 - person_logger - DEBUG - Получение данных
+2021-08-04 17:34:34,025 - person_logger - DEBUG - Пользователю  на 'pernens@mail.ru' был выдан токен  
+2021-08-04 17:34:34,027 - person_logger - DEBUG - Профиль пользователя 'pernens@mail.ru' обновлен
+2021-08-04 17:34:38,379 - person_logger - DEBUG - Получение данных
+2021-08-04 17:36:13,310 - person_logger - DEBUG - Письмо подтверждение отправлено на 'megalaniya@mail.ru' 
+2021-08-04 17:36:13,637 - person_logger - DEBUG - Пользователю  на 'megalaniya@mail.ru' был выдан токен  
+2021-08-04 17:36:13,689 - person_logger - DEBUG - Пользователю  на 'None' был выдан токен  
+2021-08-04 17:36:13,693 - person_logger - DEBUG - Пользователь 'megalaniya@mail.ru' создан (не активирован)
+2021-08-04 17:37:29,287 - person_logger - DEBUG - Пользователю  на 'megalaniya@mail.ru' был выдан токен  
+2021-08-04 17:37:29,288 - person_logger - DEBUG - Пользователь 'megalaniya@mail.ru'активирован
+2021-08-04 17:37:34,335 - person_logger - DEBUG - Получение данных
+2021-08-04 17:47:05,700 - person_logger - DEBUG - Пользователю  на 'wkzavous@mail.ru' был выдан токен  
+2021-08-04 17:47:05,741 - person_logger - DEBUG - Пользователю  на 'wkzavous@mail.ru' был выдан токен  
+2021-08-04 17:51:06,060 - person_logger - DEBUG - Пользователю  на 'wkzavous@mail.ru' был выдан токен  
+2021-08-04 17:51:06,096 - person_logger - DEBUG - Пользователю  на 'wkzavous@mail.ru' был выдан токен  
+2021-08-04 17:52:40,163 - person_logger - DEBUG - Пользователю  на 'wkzavous@mail.ru' был выдан токен  
+2021-08-04 17:52:40,208 - person_logger - DEBUG - Пользователю  на 'wkzavous@mail.ru' был выдан токен  
+2021-08-04 17:53:15,717 - person_logger - DEBUG - Пользователю  на 'wkzavous@mail.ru' был выдан токен  
+2021-08-04 17:53:15,758 - person_logger - DEBUG - Пользователю  на 'wkzavous@mail.ru' был выдан токен  
+2021-08-04 18:00:30,751 - person_logger - DEBUG - Получение данных
+2021-08-04 18:00:52,656 - person_logger - DEBUG - Получение данных
+2021-08-04 18:01:00,259 - person_logger - DEBUG - Получение данных
+2021-08-04 18:07:25,592 - person_logger - DEBUG - Получение данных
+2021-08-04 18:10:46,089 - person_logger - DEBUG - Получение данных
+2021-08-04 18:11:12,341 - person_logger - DEBUG - Получение данных
+2021-08-04 18:11:35,137 - person_logger - DEBUG - Получение данных
+2021-08-04 18:16:14,868 - person_logger - DEBUG - Пользователю  на 'megalaniya@mail.ru' был выдан токен  
+2021-08-05 09:15:06,668 - person_logger - DEBUG - Пользователю  на 'pernens@mail.ru' был выдан токен  
+2021-08-05 09:15:06,671 - person_logger - DEBUG - Профиль пользователя 'pernens@mail.ru' обновлен
+2021-08-05 09:18:05,004 - person_logger - DEBUG - Пользователю  на 'pernens@mail.ru' был выдан токен  
+2021-08-05 09:18:05,005 - person_logger - DEBUG - Профиль пользователя 'pernens@mail.ru' обновлен
+2021-08-05 09:22:52,490 - person_logger - DEBUG - Письмо подтверждение отправлено на 'megalaniya@mail.ru' 
+2021-08-05 09:23:24,812 - person_logger - DEBUG - Письмо подтверждение отправлено на 'megalaniya@mail.ru' 
+2021-08-05 09:23:25,100 - person_logger - DEBUG - Пользователю  на 'megalaniya@mail.ru' был выдан токен  
+2021-08-05 09:23:25,135 - person_logger - DEBUG - Пользователю  на 'None' был выдан токен  
+2021-08-05 09:23:25,136 - person_logger - DEBUG - Пользователь 'megalaniya@mail.ru' создан (не активирован)
+2021-08-05 09:23:41,736 - person_logger - DEBUG - Пользователю  на 'megalaniya@mail.ru' был выдан токен  
+2021-08-05 09:23:41,737 - person_logger - DEBUG - Пользователь 'megalaniya@mail.ru'активирован

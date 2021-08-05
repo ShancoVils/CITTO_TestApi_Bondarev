@@ -10,8 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
-from pathlib import Path
-import datetime
+from . import settings_local
 import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 # BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +24,7 @@ SECRET_KEY = '@$+sax7^23hdq0qho@3#4(z)1kl@c+56djouf$#ui3_=9a=jt1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = settings_local.ALLOWED_HOSTS
 
 
 
@@ -92,34 +91,18 @@ AUTH_USER_MODEL = 'person_manag.CustomUser'
 #Email settings
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = "smtp.mail.ru"
-EMAIL_HOST_USER = 'pernens@mail.ru'
-EMAIL_HOST_PASSWORD ='shaurma1599'
+EMAIL_HOST = settings_local.EMAIL_HOST
+EMAIL_HOST_USER = settings_local.EMAIL_HOST_USER
+EMAIL_HOST_PASSWORD =settings_local.EMAIL_HOST_PASSWORD
 EMAIL_PORT = 2525
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 DEFAULT_FROM_EMAIL = 'pernens@mail.ru'
 
-#Email authentucation
-
-
-
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'person_manager_db',
-        'USER' : 'postgres',
-        'PASSWORD' : 'sikurity1399',
-        'HOST' : '127.0.0.1',
-        'PORT' : '5432',
-    }
-}
-
-
-
+DATABASES = settings_local.DATABASES
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators

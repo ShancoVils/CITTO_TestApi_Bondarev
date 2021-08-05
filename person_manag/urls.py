@@ -1,6 +1,6 @@
 from .import views
 from django.urls import path
-from .views import PersonView, code_form, generate_excel_file
+from .views import PersonView, generate_excel_file,activate_user
 
 
 urlpatterns = [
@@ -11,7 +11,7 @@ urlpatterns = [
     # Записать в бд все данные с указанного excel файла
     path('generate_users/', views.generate_users),
     # Переход по ссылке указанной в письме(подтверждение аккаунта) 
-    path('confirm_form/<random_code>/',code_form),
+    path('confirm_form/<slug:random_code>/',activate_user),
     #Генерирует excel файл
     path('generate_excel_file/', generate_excel_file),
 ]

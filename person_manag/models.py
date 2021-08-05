@@ -22,10 +22,10 @@ class GroupPerson(models.Model):
         return self.Name_Group
 
 class CustomUser(AbstractBaseUser, PermissionsMixin):
-    FIO = models.CharField(max_length=30)
+    fio = models.CharField(max_length=30)
     email = models.EmailField(_('email address'), unique=True)
     name = models.CharField(max_length=15, blank=True )
-    Official = models.CharField(max_length=1, choices = OFFICIAL_LIST)
+    Official = models.CharField(max_length=1, choices=OFFICIAL_LIST)
     is_staff = models.BooleanField(default=False)
     is_active = models.BooleanField(default=False)
     data_created = models.DateTimeField(default=timezone.now)
@@ -33,7 +33,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     date_joined = models.DateTimeField(default=timezone.now)
     token_data = models.CharField(max_length=255,blank=True)
     activate_code = models.CharField(max_length=255,blank=True)
-    person_group = ForeignKey(GroupPerson, on_delete=CASCADE,blank=True)
+    person_group = ForeignKey(GroupPerson, on_delete=CASCADE)
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = []
